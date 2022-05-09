@@ -21,4 +21,16 @@ public class stringPattern {
 		}
 		return result;
 	}
+	
+	// p.32
+	// it is improved concat.
+	// String is immutable object and you mainly uses immutable object when you'd like to focus on robust programming.
+	// If you will use forloop to concat string, you should use stringbuilder class 
+	static String improvedConcat(String[] array) {
+		StringBuilder result = new StringBuilder();
+		for(String s: array) {
+			result.append(s);
+		}
+		return result.toString();
+	}
 }
