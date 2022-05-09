@@ -1,6 +1,6 @@
 package perfect;
 
-public class stringPattern {
+public class StringPattern {
 	public static void main(String[] args) {
 		// p.30
 		// String -> StringBuilder
