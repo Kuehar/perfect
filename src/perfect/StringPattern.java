@@ -6,12 +6,12 @@ public class StringPattern {
 		// String -> StringBuilder
 		String s = "abc";
 		StringBuilder sb = new StringBuilder(s);
-		
+
 		// StringBuilder -> String
 		StringBuilder sb2 = new StringBuilder("abc");
 		String s2 = sb2.toString();
 	}
-	
+
 	// p.32
 	// it might be ineffective concat.
 	static String concat(String[] array) {
@@ -21,7 +21,7 @@ public class StringPattern {
 		}
 		return result;
 	}
-	
+
 	// p.32
 	// it is improved concat.
 	// String is immutable object and you mainly uses immutable object when you'd like to focus on robust programming.
@@ -33,14 +33,15 @@ public class StringPattern {
 		}
 		return result.toString();
 	}
-	
+
 	static boolean addressCompareString(String s1,String s2) {
 		// This method refers stack address.
 		return s1 == s2;
 	}
-	
+
 	static boolean CompareString(String s1,String s2) {
 		// This method refers strings. 
 		return s1.equals(s2);
+
 	}
 }
