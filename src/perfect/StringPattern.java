@@ -33,4 +33,14 @@ public class StringPattern {
 		}
 		return result.toString();
 	}
+	
+	static boolean addressCompareString(String s1,String s2) {
+		// This method refers stack address.
+		return s1 == s2;
+	}
+	
+	static boolean CompareString(String s1,String s2) {
+		// This method refers strings. 
+		return s1.equals(s2);
+	}
 }
