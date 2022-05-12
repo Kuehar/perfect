@@ -40,8 +40,7 @@ public class StringPattern {
 	}
 
 	static boolean CompareString(String s1,String s2) {
-		// This method refers strings. 
+		// This method refers strings itself. 
 		return s1.equals(s2);
-
 	}
 }
