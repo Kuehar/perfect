@@ -42,6 +42,13 @@ public class StringPattern {
 	static boolean CompareString(String s1,String s2) {
 		// This method refers strings itself. 
 		return s1.equals(s2);
-
+		
+	}
+	
+	static boolean StringEquality() {
+		String s1 = "abc";
+		String s2 = "ab";
+		s2 += "c";
+		return s1 == s2;
 	}
 }
