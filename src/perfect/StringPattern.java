@@ -44,10 +44,10 @@ public class StringPattern {
 		return s1.equals(s2);
 		
 	}
-	
+	// check String's address in Java/
 	static boolean StringEquality() {
 		String s1 = "abc";
-		String s2 = "ab";
+		String ss2 = "ab";
 		s2 += "c";
 		return s1 == s2;
 	}
